@@ -2302,7 +2302,17 @@ div#mCSB_1_container{
   right: 0px;
 }
 
+.tab-content {
+    display: none;
+}
 
+.tab-content.active-tab {
+    display: block;
+}
+
+.category-list li a.current {
+    color: #ff5e14; /* highlight active tab */
+}
 
 
 
